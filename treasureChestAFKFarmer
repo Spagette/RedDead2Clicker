@@ -1,0 +1,20 @@
+import pyautogui as ag
+import time
+
+windowTitle = 'untitled - Sublime Text (UNREGISTERED)'
+rdr2Win = ag.getWindowsWithTitle(windowTitle)[0]
+rdr2Win.activate()
+
+winPos = rdr2Win.topleft
+ag.moveTo(winPos[0]+1, winPos[1]+1)
+
+for x in range(0, 10):
+    ag.keyDown('enter')
+    ag.keyUp('enter')
+    ag.keyDown('r', 30)  # (key, secsToWait)
+    ag.keyUp('r')
+
+
+
+
+

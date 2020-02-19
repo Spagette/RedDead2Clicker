@@ -1,5 +1,5 @@
 PyGetWindow wiki
-https://readthedocs.org/projects/pygetwindow/
+https://pygetwindow.readthedocs.io/en/latest/
 -list all windows
 --maybe can get position
 PyAutoGUI
